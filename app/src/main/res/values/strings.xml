@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WeToken_VF</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_a">Enter your mobile number to connect your account</string>
+    <string name="hithere">Hi there,</string>
+    <string name="welcome">Welcome</string>
+    <string name="what_s_your">What s your  First name</string>
+    <string name="what_s_yourf">What s your last name</string>
+    <string name="weneed">We need some more details to create your account</string>
+    <string name="thinkpass">Think a passcode to\naccess</string>
+    <string name="phone_verif">Phone Verification</string>
+    <string name="we_have_sen">We have sent you an SMS with a code to number</string>
+    <string name="email">Your Email is...</string>
+    <string name="hi">Hi !</string>
+    <string name="pass">Think a passcode to access</string>
+    <string name="great">Great!</string>
+    <string name="passw">Your Password !</string>
+    <string name="confpass">Confirm your password</string>
+    <string name="sign_up">Let s Get Started </string>
+    <string name="thnks">Thanks for taking your time to create account with us. Now this is the fun part, let s explore the App.</string>
+    <string name="readytogo">Vous êtes prêt à partir!</string>
+    <string name="didn_t_you">Didn\'t you received any code?  \nResend in 5 a new code.</string>
+    <string name="mustcon">Must contain: </string>
+    <string name="mustcon2">1 special character, 1 capital letter, 1 lower case letter</string>
+    <string name="chooseagoodpassyord">Choose a good password</string>
+    <string name="veryweek">very weak</string>
+    <string name="youareready">You are ready to go!</string>
+
+    <string name="next">NEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="English">English</string>
+    <string name="French">French</string>
+    <string name="Arab">Arab</string>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".mobile_connect.ConnectFragment"
+    android:orientation="vertical"
+    android:background="@color/colorgris">
+
+
+
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="77dp"
+        android:background="@drawable/logo"
+        android:backgroundTint="@color/colorbleu"/>
+
+
+
+
+    <TextView
+        android:id="@+id/hithere"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:text="@string/hithere"
+        android:textAppearance="@style/hithere"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/image_3"
+        android:layout_marginTop="34dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="188dp"
+        />
+
+
+    <TextView
+        android:id="@+id/create_an_a"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:text="@string/create_an_a"
+        android:textAppearance="@style/create_an_a"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/hithere"
+        android:layout_marginTop="29dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="57dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linea"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rectangle_c"
+        android:elevation="30dp">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rectangle_c">
+            <!-- false to hide search edit text -->
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/france"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintLeft_toLeftOf="@id/edittxtPays"
+                android:id="@+id/img"/>
+            <EditText
+                android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+                android:layout_weight="0.2"
+                android:text="+33"
+                android:cursorVisible="false"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/edittxtPays"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <EditText
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_weight="0.8"
+            android:id="@+id/edittxtTel"
+            android:inputType="phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnSend"
+
+        android:text="NEXT"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:textSize="49px"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rectangle"/>
+</LinearLayout>
